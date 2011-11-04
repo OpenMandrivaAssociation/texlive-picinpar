@@ -1,3 +1,9 @@
+# revision 20374
+# category Package
+# catalog-ctan /macros/latex209/contrib/picinpar
+# catalog-date 2010-11-05 12:43:21 +0100
+# catalog-license gpl
+# catalog-version 1.2a
 Name:		texlive-picinpar
 Version:	1.2a
 Release:	1
@@ -43,6 +49,7 @@ is recommended instead.
 %doc %{_texmfdistdir}/doc/latex/picinpar/picinpar-de.tex
 %doc %{_texmfdistdir}/doc/latex/picinpar/picinpar-en.pdf
 %doc %{_texmfdistdir}/doc/latex/picinpar/picinpar-en.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ is recommended instead.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
