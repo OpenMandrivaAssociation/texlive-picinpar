@@ -6,7 +6,7 @@
 # catalog-version 1.2a
 Name:		texlive-picinpar
 Version:	1.2a
-Release:	8
+Release:	9
 Summary:	Insert pictures into paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex209/contrib/picinpar
