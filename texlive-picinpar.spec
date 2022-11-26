@@ -1,5 +1,5 @@
 Name:		texlive-picinpar
-Version:	57349
+Version:	65097
 Release:	1
 Summary:	Insert pictures into paragraphs
 Group:		Publishing
